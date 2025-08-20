@@ -1,0 +1,51 @@
+h1{
+    font-family: Luminari, fantasy;
+    text-shadow: #ffffff 0px 0px 10px;
+    -webkit-text-stroke: #82308a;
+    font-size: 750%;
+    text-align: center;
+}
+   button {
+        text-size-adjust: 150%;
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        position: relative;
+        left: 33%;
+        font-size: 25px;
+        box-shadow: #b66ebd 0px 0px 10px;
+        font-family: Luminari, fantasy;
+        border-radius: 40px;
+        padding: 10px;
+        box-shadow : #793a77 0px 10px 20px;
+        transition: transform 0.3s ease;
+        }
+    button:hover {
+        transform: translateY(-10px) scale(1.05);
+    }
+    body{
+    background: linear-gradient(to bottom, #ffffff, #f8abff);
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    }
+    img {
+       float: right;
+       width: 600px;
+       height: 500px;
+    }
+    h2 {
+        font-family:cursive;
+        align-items: left;
+    }
+    h3 {
+        font-family: cursive;
+        text-align: center;
+        font-size: 250%;
+    }
+    audio {
+        position: relative;
+        bottom: -295px;
+        left: 778px;
+        width: 300px;
+        height: 100px;
+        border-color: #793a77;    }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Hair Blog!
+</title>
+    <link rel="stylesheet" href="code.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <audio id = "myAudio"  autoplay loop controls>
+        <source src= "doodoobaabaa.co.za - no copyright music In Dreamland background music (64 KBps).mp3">
+    <source src="doodoobaabaa.co.za - no copyright music In Dreamland background music (64 KBps).mp3">
+</audio>
+<h1 style="color: rgb(179, 69, 111);">Welcome to our Hair Blog!</h1>
+<h3 style="color: rgb(231, 109, 156);">Here in this website we will show you our tips and tricks for each hair type!</h3>
+<button style="background-color: linear-gradient(to right, #aa58a2, rgb(255, 246, 222)); color: rgb(179, 69, 111); border-color: rgb(255, 255, 255);" onclick="text()">To read about straight hair click here</button>
+<button style="background-color: linear-gradient(to right, #e4a2dd, #ffffff); color: rgb(179, 69, 111); border-color: aliceblue;" onclick="text2()">To read about curly hair click here</button>
+<button style="background-color: linear-gradient(to right, #e4a2dd, #ffffff); color: rgb(179, 69, 111); border-color: aliceblue;" onclick="text3()">To read about wavy hair click here</button>
+<div id="imageContainer"></div>
+<h2 style="color:rgb(231, 109, 156)" id="text"></h2>
+
+<script>
+
+    function text() {
+        
+        document.getElementById("imageContainer").innerHTML = 
+            '<img src="https://cdn11.bigcommerce.com/s-wcc90u14r8/images/stencil/1193x795/uploaded_images/straight-hair.png?t=1595771149" alt="Straight hair" width="300" height="200" title="Straight Hair">';
+        
+        document.getElementById("text").innerHTML = 
+            "A simple hair care routine for straight hair might include washing with a gentle, sulfate-free shampoo a few times a week to avoid stripping natural oils, which can actually lead to excess oil production. <br>Over-washing is a common mistake, so it's best to cleanse every 2–3 days, using a shampoo suited to your hair’s specific type and texture. <br>Follow up with a hydrating conditioner or nourishing hair mask, focusing on the mid-lengths and ends to keep strands moisturized without weighing down the roots. <br>After washing, gently wring out excess water and pat hair dry with a towel—avoid blow-drying soaking wet hair. <br>If using a blow dryer, apply a heat protectant first to prevent damage. <br>Brush gently to remove tangles, steering clear of aggressive brushing or combing, which can lead to breakage and split ends. <br>To keep hair healthy and vibrant, regular trims every 6–8 weeks are essential for managing split ends and maintaining a polished look.";
+    }
+
+    function text2() {
+        document.getElementById("imageContainer").innerHTML = 
+            '<img src="https://www.shutterstock.com/image-photo/hair-beauty-back-woman-hairstyle-600nw-2337393353.jpg" alt="Curly hair" width="300" height="200" title="Curly Hair">';
+        
+        document.getElementById("text").innerHTML = 
+            "  Don’t over-wash your hair—this can strip away the natural oils your scalp produces, leading to increased dryness and frizz. <br>Washing two to three times a week is usually enough to keep curls clean while preserving their natural shine and elasticity. <br>After conditioning, run cold water through your hair for a few seconds to help seal the cuticle and lock in moisture. <br>Hot water, while comforting, can lift the hair cuticle and cause dryness, so opt for cold or lukewarm water instead to maintain smooth, hydrated curls (and enjoy the bonus immune and mood boost!). <br>After showering, avoid towel-drying; instead, gently squeeze out excess water. <br>DON’T comb your hair—brushing disrupts curl patterns and causes frizz. <br>With your hair still soaking wet, flip your head upside down and begin scrunching to help curls define themselves, gently squeezing as you go. <br>While your hair is still wet, apply a silicone-free styling product. <br>Many curlies keep their gel or cream in the shower and apply it right then to reduce frizz and keep curl clumps intact. <br>On low-maintenance days, a little extra conditioner on the ends may be enough, but for more hold and definition, a small amount of gel can go a long way. \nProduct choice depends on your hair type and whether you’re aiming for soft, touchable curls or more defined, long-lasting ones. Between washes, use a leave-in or deep conditioning treatment to keep curls fresh and nourished.";
+    }
+
+    function text3() {
+        document.getElementById("imageContainer").innerHTML = 
+            '<img src="https://cdn.shopify.com/s/files/1/0144/3636/8419/files/NCS2_480x480.png?v=1721130055" alt="Wavy hair" width="300" height="200" title="Wavy Hair">';
+        document.getElementById("text").innerHTML = 
+            "If you have wavy hair (Type 2), maintaining definition, hydration, and minimizing frizz requires a tailored routine. <br>What you wash your hair with plays a key role in its overall health—opt for a sulfate-free shampoo to gently cleanse without stripping away natural oils. <br>Focus shampoo on the scalp and let the lather rinse through the lengths. <br>Follow up with a hydrating, anti-frizz or curly girl-friendly conditioner that supports your wave pattern. <br>After applying conditioner, detangle with a wide-tooth comb, either while the conditioner is in or after rinsing with lukewarm water. <br>Wavy hair ranges from 2A to 2C: 2A has loose, barely-there waves that need lightweight styling products for hold; <br>2B has more defined S-shaped waves that respond well to light creams; <br>and 2C has tighter, frizz-prone waves—sometimes with corkscrew strands—that benefit from both moisture and hold. <br>Avoid layering too many products; instead, use a light leave-in like a weightless air-dry cream. <br>Alternate between regular shampoo and a co-wash to help retain moisture. <br>To make your waves last between washes, sleep with a satin scarf or bonnet to reduce friction, frizz, and preserve definition—so you wake up with bouncy, well-formed waves.";
+    }
+{
+    const audioPlayer = document.getElementById('myAudio');
+    audioPlayer.volume = 0.1; 
+}
+</script>
+ </body>
+</html>
